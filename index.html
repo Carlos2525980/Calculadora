@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <div class="bloco">
+        <h1>CALCULADORA</h1>
+
+        <input type="number" id="barra1" name="barra1" class="barra1" placeholder="Digite o primeiro numero">
+        <input type="number" id="barra2" name="barra2" class="barra1" placeholder="Digite o segundo numero">
+        <div class="botoes">
+            <input type="button" id="botao" name="botao" class="botao" value="+" onclick="Soma()">
+            <input type="button" id="botao2" name="botao2" class="botao2" value="-" onclick="substrair()">
+            <input type="button" id="botao3" name="botao3" class="botao3" value="/" onclick="dividir()">
+            <input type="button" id="botao3" name="botao3" class="botao4" value="*" onclick="Multiplicar()">
+        </div>
+        <div id="resultado" class="resultado"> Resultado</div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
